@@ -12,7 +12,7 @@ const db = require('_helpers/db');
         }
     });
     console.log(instaLinks);
-    //const result = await db.InstaLink.insertMany(instaLinks);
+    const result = await db.InstaLink.insertMany(instaLinks);
     console.log('Storage completed successfully...');
 })();
 
