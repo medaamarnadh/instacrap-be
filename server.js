@@ -18,6 +18,8 @@ app.use('/accounts', require('./accounts/accounts.controller'));
 
 // swagger docs route
 app.use('/api-docs', require('_helpers/swagger'));
+app.use('/scrap/instagram', require('./scrap/instagram/profile.info'));
+
 
 // global error handler
 app.use(errorHandler);
