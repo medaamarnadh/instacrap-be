@@ -8,6 +8,7 @@ module.exports = {
     Account: require('accounts/account.model'),
     RefreshToken: require('accounts/refresh-token.model'),
     InstaPost: require('scrap/instapost.model'),
+    InstaLink: require('scrap/instalink.model'),
     isValidId
 };
 
